@@ -1,0 +1,469 @@
+/*==================================================
+=            Bootstrap 5 Media Queries             =
+==================================================*/
+@media (min-width: 1200px) and (max-width: 1600px) {
+	/*Client page*/
+	
+	.client-desc-overlay {
+		background-size: 70%;
+	}
+
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.hero-content h1 {
+		font-size: 46px;
+	}
+	.about-btn{
+		margin-bottom: 30px;
+	}
+	.counter-item{
+		padding: 0;
+	}
+	.counter-item ul li:nth-child(2) {
+		padding-left: 30px;
+	}
+	.item {
+		width: 700px;
+		margin: auto;
+	}
+	/*Hero 2 section*/
+	#call-to{
+	    background-size: 90%;
+	}
+	.hero-2-text h1 {
+		font-size: 44px;
+	}
+	/*Hero 2 section*/
+	.hero-slider-4-text {
+		top: 25%;
+	}
+	.hero-slider-4-text p {
+		display: none;
+	}
+	/*Team section*/
+	.all-team-text {
+		padding: 30px 10px;
+	}
+	/*Client page*/
+	.client-desc-overlay {
+		background-size: 80%;
+	}
+	/*Réalisations page*/
+	.Réalisations-content-two img{
+		margin-top: 40px;
+	}
+	/*Login Register page*/
+	.signin-right {
+		padding: 50px;
+	}
+}
+
+/* Without side menu */
+@media (min-width: 768px) and (max-width: 991px) {
+	#history-section .container, #blog-section .container{
+		width: 700px;
+	}
+	.section-title h2{
+		font-size: 36px;
+	}
+	.ace-responsive-menu > li > a {
+		padding: 10px 10px;
+	}
+	.hero-content h1 {
+		font-size: 42px;
+	}
+	.hero-btn ul li a {
+		letter-spacing: 1px;
+		padding: 15px;
+		font-size: 14px;
+	}
+	.about-item h5{
+		font-size: 18px;
+	}
+	.about-btn{
+		margin-bottom: 30px;
+	}
+	.service-title-btn {
+		float: inherit;
+		margin: 70px 0 0;
+	}
+	.newsletter h2 {
+		float: inherit;
+		text-align: center;
+		margin: 15px 0 30px 0;
+	}
+	.newsletter-form {
+		text-align: center;
+		width: 70%;
+		margin: auto;
+	}
+	.newsletter-form input{
+		width: 100%;
+	}
+	.newsletter button {
+		right: 0;
+	}
+	.useful-link, .footer-social{
+		margin-top: 50px;
+	}
+	/*Heor 2 section*/
+	.hero-2-text h1 {
+		font-size: 36px;
+	}
+	.hero-2-img{
+		width: 300px;
+	}
+	.hero-2-shape {
+		top: 0;
+		right: 0;
+		max-width: 400px;
+	}
+	.call-to-text h2{
+		float: right;
+		width: 300px;
+	}
+	.call-to-btn {
+		margin-top: 13px;
+	}
+	.header-hero-4 .ace-responsive-menu > li > a {
+		font-size: 14px;
+	}
+	/*Hero 4 section*/
+	.hero-slider-4-text h1 {
+		font-size: 42px;
+	}
+	.hero-slider-4-text p{
+		display: none;
+	}
+	.hero-slider-4-active .slick-dots {
+		bottom: -50px;
+	}
+	.hero-slider-4-btn{
+		margin-top: 30px;
+	}
+	.hero-shape-four {
+		position: absolute;
+		width: 150px;
+		top: 25%;
+		right: 10%;
+	}
+	/*Client page*/
+	.client-desc-overlay {
+		background-size: cover;
+	}
+	/*Testimonial section*/
+	.item {
+		width: 600px;
+		margin: auto;
+	}
+	/*Réalisations page*/
+	.Réalisations-content-two img{
+		margin-top: 40px;
+	}
+	/*History page*/
+	.history-flowchart-item-date::before {
+		width: 640px;
+	}
+	/*Login Register page*/
+	.signin-left {
+		width: 55%;
+		height: 100vh;
+	}
+	.signin-left-content {
+		top: 15%;
+		left: 10%;
+		padding-right: 20px;
+	}
+	.signin-right {
+		padding: 50px 0px 50px 50px;
+	}
+	/*Blog page*/
+	.blog-left-content {
+		margin-right: 0;
+	}
+	
+}
+/* Mobile device 320px to 767px
+------------------------------------------ */
+@media (max-width: 767px) {
+	.section-title h2 {
+		font-size: 26px;
+	}
+	.cmn-btn a {
+		padding: 20px 18px;
+		font-size: 14px;
+	}
+	/*Header section*/
+	.header-menu {
+		float: inherit;
+	}
+	.menu-toggle {
+		clear: both;
+		background: #0d004d;
+	}
+    /*mobile logo*/
+    .mobile-logo{
+        position: absolute;
+		top: 30px;
+        left: 25px;
+    }
+    .mobile-logo img{
+        width: 130px;
+    }
+	.sticky-menu .mobile-logo {
+		top: 29px;
+	}
+	.ace-responsive-menu {
+		background: rgba(255,255,255,.9);
+	}
+	.ace-responsive-menu > li > ul.sub-menu {
+		padding-left: 20px;
+	}
+	/*hero section*/
+	#hero-section {
+		padding: 0 0 50px;
+		text-align: center;
+	}
+	.hero-content {
+		padding: 10rem 0 5rem;
+	}
+	.hero-content h1 {
+		font-size: 36px;
+	}
+	.hero-btn ul li a.btn-two {
+		margin-top: 20px;
+	}
+	.hero-img {
+		padding: 0;
+	}
+	.hero-shape {
+		top: 15%;
+	}
+	.hero-shape-four {
+		top: inherit;
+		width: 150px;
+		bottom: 5%;
+		right: 10%;
+	}
+	/*About section*/
+	.about-img{
+		margin-top: 100px;
+	}
+	/*Service section*/
+	.service-title-details{
+		margin-bottom: 80px;
+	}
+	.service-title-btn{
+		float: inherit;
+	}
+	/*Graph section*/
+	.graph-title-details{
+		margin-bottom: 100px;
+	}
+	.counter-item{
+		padding: 0;
+	}
+	/*Testimonial section*/
+	.owl-carousel button.owl-dot {
+		background: #0d004d;
+	}
+	/*Gallery section*/
+	.gallery-title-details{
+		margin-bottom: 100px;
+	}
+	.gallery-title-btn{
+		float: inherit;
+	}
+	/*Team section*/
+	.team-title-details{
+		margin-bottom: 100px;
+	}
+	/*Footer section*/
+	.newsletter h2 {
+		margin: 0 0 50px 0;
+	}
+	.newsletter input {
+		width: 100%;
+		padding: 15px;
+	}
+	.newsletter button {
+		right: 0;
+		top: 0;
+		width: 110px;
+		height: 59px;
+	}
+	.useful-link, .footer-social{
+		margin-top: 50px;
+	}
+
+	/*Accueil 2 sectoin*/
+	#hero-2-section{
+		text-align: center;
+	}
+	.hero-2-text h1 {
+		font-size: 30px;
+	}
+	.hero-2-img {
+		margin-top: 70px;
+	}
+	.hero-2-shape {
+		top: 0;
+		right: 0;
+		max-width: 300px;
+	}
+	#call-to {
+		padding: 50px 0 70px;
+		background-size: 100%;
+		border-radius: 0;
+		text-align: center;
+	}
+	.call-to-btn{
+		float: inherit;
+	}
+	.call-to-btn a {
+		width: 200px;
+		margin: 30px auto 0;
+	}
+	/*Hero 3 section*/
+	.hero-3-text h1 {
+		font-size: 52px;
+	}
+	/*Hero 3 section*/
+	#hero-4-section{
+		padding: 95px 0 0;
+	}
+	.hero-slider-4-img img{
+		height: 100%;
+	}
+	.hero-slider-4-text{
+		left: 15%;
+	}
+	.hero-slider-4-text h1{
+		font-size: 28px;
+	}
+	.hero-slider-4-text p{
+		display: none;
+	}
+	.hero-slider-4-active .slick-dots {
+		bottom: -50px;
+	}
+	.header-hero-4 .mobile-logo {
+		left: 65px;
+	}
+
+	#header-section.page-header-section .header-menu ul li a{
+	    color: #000 !important;
+	}
+	/*Client page*/
+	.client-desc-overlay{
+		background: transparent;
+	}
+	.client-desc-text{
+		padding: 0;
+		text-align: center;
+	}
+	.client-desc-text h2 {
+		font-size: 36px;
+	}
+	/*Testimonial section*/
+	.testimonial-detl-title{
+		margin-bottom: 50px;
+	}
+	.testimonial-detl-title h2, .all-testimonial-title h2 {
+		font-size: 36px;
+	}
+	/*Réalisations page*/
+	.Réalisations-cmn {
+		float: inherit;
+		width: 100%;
+	}
+	.Réalisations h2 {
+		font-size: 36px;
+	}
+	.Réalisations-content-two img{
+		margin-top: 40px;
+	}
+	/*History page*/
+	.history-text h1 {
+		font-size: 36px;
+	}
+	/*Login and Register page*/
+	.signin-left {
+		width: 100%;
+		height: 100vh;
+	}
+	.signin-left-content {
+		top: 35%;
+		left: 5%;
+		transform: translateY(-30%);
+	}
+	.signin-right {
+		padding: 50px;
+		width: 100%;
+	}
+	/*Blog page*/
+	.blog-left-content {
+		margin-right: 0;
+	}
+	/*Contact Page*/
+	.contact-address {
+		padding: 30px;
+		margin-left: 0;
+	}
+}
+
+/*
+Very common low res
+*/
+@media (min-width: 320px) and (max-width: 575px) {
+	#about-section .container, #service-section .container, #graph-section .container, #counter-section .container,
+	#gallery-section .container, #team-section .container, #all-team-section .container, #footer-section .container,
+	#hero-2-section .container, #client-section .container, #client-desc-section .container, #reister-section .container,
+	#blog-details-section .container, #mission-vision-section .container{
+		width: 320px;
+		margin: auto;
+	}
+	.hero-slider-4-btn{
+		display: none;
+	}
+	/*blog page*/
+	.blog-item, .blog-details {
+		padding: 20px;
+	}
+}
+@media (min-width: 400px) and (max-width: 767px) {
+	#about-section .container, #service-section .container, #graph-section .container, #counter-section .container,
+	#gallery-section .container, #team-section .container, #all-team-section .container, #footer-section .container,
+	#hero-2-section .container, #client-desc-section .container, #testimonial-detl-section .container,
+	#all-testimonial-section .container, #mission-vision-section .container, #contact-section .container, 
+	#contact-branch-section .container{
+		width: 400px;
+		margin: auto;
+	}
+}
+@media (min-width: 575px) and (max-width: 767px) {
+	#hero-section .container, #history-section .container{
+		width: 600px;
+	}
+	.hero-2-img {
+		margin-top: 70px;
+		float: inherit;
+		width: 400px;
+		margin: 70px auto 0;
+	}
+	.call-to-text{
+		float: inherit;
+	}
+	/*Hero 4 section*/
+	.hero-slider-4-text {
+		top: 10%;
+	}
+	.hero-slider-4-text h1 {
+		font-size: 42px;
+	}
+	.hero-slider-4-btn{
+		margin-top: 10px;
+	}
+
+}
