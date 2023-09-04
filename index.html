@@ -34,6 +34,11 @@
     	<link rel="stylesheet" type="text/css" href="style.css">
     	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
+        <!-- Essai fichier manifest -->
+
+        <link rel="manifest" href="manifest.json">
+
+
         <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD2Q64VE3K"></script>
 <script>
@@ -46,6 +51,20 @@
     </head>
     <body id="default-Accueil">
 		<div class="main-content-area">
+
+            <script>
+                // Exemple de JavaScript pour afficher le bouton d'ajout à l'écran d'accueil
+                const addToHomeButton = document.getElementById('addToHomeButton');
+
+                addToHomeButton.addEventListener('click', () => {
+                if ('navigator' in window && 'standalone' in navigator && navigator.standalone) {
+                    alert('Vous avez déjà ajouté cette application à l\'écran d\'accueil.');
+                } else {
+                    alert("Application ajouté à l'écran d'accueil avec succès");
+                }
+                });
+
+            </script>
             
             <!-- Header start -->
             <header id="header-section" class="page-header-section">
