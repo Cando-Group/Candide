@@ -38,31 +38,57 @@
 
         <link rel="manifest" href="manifest.json">
 
+        <!-- Manifest -->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Rolos Chicken">
+
+        <link rel="stylesheet" href="add-to-homescreen-master/style/addtohomescreen.css">
+        <script src="add-to-homescreen-master/src/addtohomescreen.js"></script>
+
 
         <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD2Q64VE3K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD2Q64VE3K"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-VD2Q64VE3K');
-</script>
+        gtag('config', 'G-VD2Q64VE3K');
+        </script>
     </head>
     <body id="default-Accueil">
 		<div class="main-content-area">
 
             <script>
-                // Exemple de JavaScript pour afficher le bouton d'ajout à l'écran d'accueil
-                const addToHomeButton = document.getElementById('addToHomeButton');
-
-                addToHomeButton.addEventListener('click', () => {
-                if ('navigator' in window && 'standalone' in navigator && navigator.standalone) {
-                    alert('Vous avez déjà ajouté cette application à l\'écran d\'accueil.');
-                } else {
-                    alert("Application ajouté à l'écran d'accueil avec succès");
-                }
-                });
+                if (
+                (("standalone" in window.navigator) && !window.navigator.standalone) //ios
+                ||
+                ( !window.matchMedia('(display-mode: standalone)').matches) // android
+            ) {
+                addToHomescreen();
+            }
 
             </script>
             
