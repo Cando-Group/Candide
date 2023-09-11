@@ -614,9 +614,25 @@
             <!-- scrollToTop end -->
 		</div>   
 
-        <!-- Bot -->
-        <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
-<script src="https://mediafiles.botpress.cloud/64a2a942-7649-48e7-b230-9219ae7f827e/webchat/config.js" defer></script>
+        <!-- Bot  -->
+        <!-- <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/64a2a942-7649-48e7-b230-9219ae7f827e/webchat/config.js" defer></script> -->
+
+        <!-- Bot Big -->
+
+        <script type="text/javascript">
+            (function(d, t) {
+                var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                v.onload = function() {
+                  window.voiceflow.chat.load({
+                    verify: { projectID: '64ff533376fbde0007df1bd7' },
+                    url: 'https://general-runtime.voiceflow.com',
+                    versionID: 'production'
+                  });
+                }
+                v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+            })(document, 'script');
+          </script>
     
     	<!-- external javascripts -->
     	<script src="js/jquery.min.js"></script>
